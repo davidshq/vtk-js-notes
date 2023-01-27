@@ -21,3 +21,6 @@ This Glossary covers the most basic and frequently utilized terms when working w
 
 # Visualization Pipeline
 - The visualization pipeline consists of *data objects* that are passed through a series of *process objects*. May also be called the *visualization network*.
+
+# Widgets
+- Allow users to interact with the rendering, e.g. via clicking, dragging, etc.
