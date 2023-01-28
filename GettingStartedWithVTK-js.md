@@ -49,7 +49,7 @@ const renderWindow = fullScreenRenderer.getRenderWindow();
 const coneSource = vtkConeSource.newInstance({ height: 1.0 });
 
 const mapper = vtkMapper.newInstance();
-mapper.setInputConnection(coneSource.getOutputPort()));
+mapper.setInputConnection(coneSource.getOutputPort());
 
 const actor = vtkActor.newInstance();
 actor.setMapper(mapper);
