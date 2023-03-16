@@ -16,6 +16,12 @@ This Glossary covers the most basic and frequently utilized terms when working w
 # Representations
 - Representations convert the data into a visual representation.
 
+# Slice
+- A slice is a subset of a larger dataset. For example, a slice of a 3D volume is a 2D image.
+
+# Slice Domain
+- According to ChatGPT, "A slice domain...refers to the set of all possible slices that could be extracted from a dataset. It is the full range of potential slices that can be created by varying the slice criteria, such as selecting data based on a particular time range, geographica region, or some other factor."
+
 # View
 - A container for a representation.
 

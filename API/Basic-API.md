@@ -19,6 +19,7 @@ Resources:
 Represents an entity in a rendering scene.
 - `.newInstance()`
 - `.setMapper()`
+- "The `vtkActor` is used to hold position, orientation and scaling information about the data, as well as a pointer to both the property and the mapper."[^1]
 
 Resources:
 - https://kitware.github.io/vtk-js/api/Rendering_Core_Actor.html
@@ -27,6 +28,7 @@ Resources:
 An abstract class that is used to define the interface between the data and the graphics primitives.
 - `.newInstance()`
 - `.setInputConnection()`
+- "the `vtkMapper` subclass is ressponsible for actually rendering the data."[^1]
 
 Resources:
 - https://kitware.github.io/vtk-js/api/Rendering_Core_Mapper.html
@@ -38,6 +40,9 @@ Creates a cone with specified properties.
 
 Resources:
 - https://kitware.github.io/vtk-js/api/Filters_Sources_ConeSource.html
+
+# vtkProperty
+- "The `vtkProperty` object captures various parameters that control the appearance of the data such as the ambient lighting coefficient and whether the object is flat, Gouraud, or Phong shaded."[^1]
 
 # vtkRenderer
 A viewport that holds the actor, cameras, lights, etc.
@@ -54,3 +59,10 @@ Resources:
 
 Resources:
 - https://kitware.github.io/vtk-js/api/Rendering_Core_RenderWindow.html
+
+
+
+
+
+# Footnotes
+- [^1]: VTK User Guide, Chapter 7 Volume Rendering, pp. 139-140.
